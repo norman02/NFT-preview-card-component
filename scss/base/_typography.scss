@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&family=Outfit:wght@300;400;600&display=swap');
 
-@function pixel-to-rem($pixel) {
-    @return ($pixel/16) + rem;
-}
-
-
-
 body {
     font-family: 'Outfit', sans-serif;
     background-color: $card-bg-color;
