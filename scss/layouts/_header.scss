@@ -1,5 +1,4 @@
 
-
 header {
     
     .image-container {
@@ -7,6 +6,11 @@ header {
         display: block;
         height: small-prop(278);
         width: small-prop(278);
+
+        @include media-lg {
+           height: large-prop(302);
+           width: large-prop(302);
+        }
     }
     
     img {
