@@ -19,5 +19,10 @@ footer {
 
     a {
         color: $secondary-txt-color;
+
+        &:hover {
+            @extend %transition-ease;
+            color: $highlight-color;
+        }
     }
 }

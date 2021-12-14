@@ -1,12 +1,31 @@
+
+
 header {
     
-    img {
+    .image-container {
+        background-color: $highlight-color;
+        display: block;
         height: small-prop(278);
         width: small-prop(278);
+    }
+    
+    img {
+        height: 100%;
+        width: 100%;
+
+        &:hover {
+            @extend %transition-ease;
+            opacity: 0.5;
+        }
     }
 
     h1 {
         margin-top: pixel-to-rem(24);
+
+        &:hover {
+            @extend %transition-ease;
+            color: $highlight-color;
+        }
     }
 
     p {
