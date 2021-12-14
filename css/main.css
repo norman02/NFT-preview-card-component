@@ -114,4 +114,28 @@ main {
 .countdown p {
   margin-left: 0.5625rem;
 }
+
+footer {
+  align-items: center;
+  border-top: 1px solid #2f415b;
+  display: flex;
+  margin-top: 1rem;
+}
+
+footer img {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 33px;
+  margin-top: 1rem;
+  width: 33px;
+}
+
+footer p {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+footer a {
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */
