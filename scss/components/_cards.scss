@@ -1,0 +1,7 @@
+.card {
+    background-color: $card-bg-color;
+    margin: small-prop(62) small-prop(24);
+    max-width: small-prop(327);
+    overflow: hidden;
+    padding: small-prop(24);
+}
