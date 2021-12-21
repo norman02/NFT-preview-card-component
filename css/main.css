@@ -101,15 +101,8 @@ body {
 .top .image-container {
   background-color: #00fff7;
   display: block;
-  height: 74.13333vw;
-  width: 74.13333vw;
-}
-
-@media screen and (min-width: 1100px) {
-  .top .image-container {
-    height: 21.57143vw;
-    width: 21.57143vw;
-  }
+  height: 17.375rem;
+  width: 17.375rem;
 }
 
 .top img {
@@ -163,16 +156,9 @@ body {
 
 .card {
   background-color: #14253d;
-  margin: 16.53333vw 6.4vw;
-  max-width: 87.2vw;
+  margin: 16.53333vw auto;
+  max-width: 20.4375rem;
   overflow: hidden;
-}
-
-@media screen and (min-width: 1100px) {
-  .card {
-    margin: 10.85714vw auto;
-    max-width: 25vw;
-  }
 }
 
 .card .container {
