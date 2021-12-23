@@ -1,5 +1,19 @@
 body {
+
     background-color: $main-bg-color;
+}
+
+html,
+body,
+.flex-cont {
+    height: 100%;
+}
+
+.flex-cont {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .center {
@@ -107,7 +121,6 @@ body {
 
 .card {
     background-color: $card-bg-color;
-    margin: small-prop(62) auto;
     max-width: pixel-to-rem(327);
     overflow: hidden;
 
@@ -116,3 +129,4 @@ body {
     }
 
 }
+

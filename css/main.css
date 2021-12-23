@@ -58,6 +58,18 @@ body {
   background-color: #0d192b;
 }
 
+html,
+body,
+.flex-cont {
+  height: 100%;
+}
+
+.flex-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .center {
   align-items: center;
   display: flex;
@@ -156,7 +168,6 @@ body {
 
 .card {
   background-color: #14253d;
-  margin: 16.53333vw auto;
   max-width: 20.4375rem;
   overflow: hidden;
 }
